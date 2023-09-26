@@ -32,4 +32,9 @@ TEMPLATE = lib
 
 include(QZXing-components.pri)
 
+UI_DIR = build/uics
+MOC_DIR = build/mocs
+OBJECTS_DIR = build/objs
+DESTDIR = build
+
 DEFINES -= DISABLE_LIBRARY_FEATURES
